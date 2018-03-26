@@ -1,0 +1,22 @@
+{
+  "name": "mutation-observer-inner-html-shim",
+  "version": "1.0.0",
+  "description": "Fix IE 11's MutationObserver with this one weird trick",
+  "main": "dist/index.js",
+  "repository": "https://github.com/javan/mutation-observer-inner-html-shim",
+  "author": "Javan Makhmali <javan@javan.us>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "prepublishOnly": "yarn run build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3"
+  }
+}
