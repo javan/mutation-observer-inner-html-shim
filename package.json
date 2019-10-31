@@ -14,8 +14,8 @@
     "prepublishOnly": "yarn run build"
   },
   "devDependencies": {
-    "babel-core": "6.26.0",
-    "babel-preset-env": "1.6.1",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
     "rollup": "0.57.1",
     "rollup-plugin-babel": "3.0.3"
   }
