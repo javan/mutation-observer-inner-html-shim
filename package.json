@@ -14,8 +14,8 @@
     "prepublishOnly": "yarn run build"
   },
   "devDependencies": {
-    "@babel/core": "7.7.4",
-    "@babel/preset-env": "7.7.4",
+    "@babel/core": "7.7.5",
+    "@babel/preset-env": "7.7.5",
     "rollup": "1.27.8",
     "rollup-plugin-babel": "4.3.3"
   }
